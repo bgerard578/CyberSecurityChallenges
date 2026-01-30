@@ -1,0 +1,20 @@
+Scenario:
+The attacker appears to have identified a web application running on our server. We need to determine what application was being targeted. Find the version and username associated with the application in the capture.
+
+
+Writeup:
+Used Wireshark export  object "http" to find wp "WordPress" traffic, then followed it to find Web server and version.
+
+Used Wireshark filter "http contains "ver="", followed the response, and found version 1.0.9 and tested up to 6.8
+
+Used Wireshark filter "http.request.method == "POST"": found Username and E-mail
+
+
+Application: WordPress
+Web server: Apache; Version: 2.4.58
+Theme version: 1.0.9
+WordPress core version: 6.8
+Username:  kadmin_user
+E-mail: tushar@gmail.com
+
+Incorect: KCTF{2.4.58_kadmin_user}, KCTF{1.0.9_kadmin_user}, KCTF{6.8_kadmin_user}, KCTF{6.8_tushar}, KCTF{1.0.9_tushar}
