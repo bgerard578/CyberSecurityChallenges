@@ -1,3 +1,5 @@
+Networking
+
 Scenario:
 The attacker appears to have identified a web application running on our server. We need to determine what application was being targeted. Find the version and username associated with the application in the capture.
 
@@ -16,5 +18,6 @@ Theme version: 1.0.9
 WordPress core version: 6.8
 Username:  kadmin_user
 E-mail: tushar@gmail.com
+
 
 Incorect: KCTF{2.4.58_kadmin_user}, KCTF{1.0.9_kadmin_user}, KCTF{6.8_kadmin_user}, KCTF{6.8_tushar}, KCTF{1.0.9_tushar}
