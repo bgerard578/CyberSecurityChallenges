@@ -1,4 +1,7 @@
+Networking
+
 Scenario:
 After exploiting the vulnerability, the attacker established a persistent connection back to their command and control server. Analyze the traffic to identify the HTTP port used for the initial payload delivery and the port used for the reverse shell connection.
 
 Writeup:
+
