@@ -1,0 +1,7 @@
+Write up:
+I ran a Google reverse image search on the image and switched it to visual match.
+The third image () looks like the image so I click it, taking me to the site where I see it on google maps.
+Based on the example flag, I assume that I am looking for a zoo.
+I see that the location of the building is right nex to the Perth Zoo so I try that as the flag.
+
+Flag:  etsuCTF{Perth_Zoo}
