@@ -1,6 +1,11 @@
 Cryptography
 
 Writeup:
+Used CyberChef to decode
+Used "from braille"
+Moved everything into one line, keeping spaces between morse letters
+Used "from morse"
+used "from hex"
 
 
-Flag: 
+Flag: etsuCTF{i_have_no_mouth_yet_i_must_scream}
