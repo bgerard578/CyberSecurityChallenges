@@ -1,8 +1,0 @@
-OSINT
-
-Writeup:
-I used Google reverse image search on the image and found that it was a picture of Pyongyang.
-I didn't get any more information on the image so I added "what is the name of the building in the background" to the search.
-Once I did this I found that the name of the building was "Grand People's Study House".
-
-Flag:  etsuCTF{Grand_People's_Study_House}
