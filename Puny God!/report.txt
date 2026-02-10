@@ -1,6 +1,8 @@
 Cryptography
 
 Writeup:
-Used CyberChef, using "Punnycode" to decode, to find "етѕυСТҒ{һυⅼҡ_ѕм4ѕһ!}"
+Used CyberChef to decode
+Used "from punycode"
+
 
 Flag: етѕυСТҒ{һυⅼҡ_ѕм4ѕһ!}
