@@ -25,7 +25,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 
 res: didn't extract
 
-cmd: d if=stacked.jpg of=hidden.png bs=1 skip=99525
+cmd: dd if=stacked.jpg of=hidden.png bs=1 skip=99525
 
 out:
 
