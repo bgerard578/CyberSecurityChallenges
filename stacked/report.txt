@@ -1,0 +1,40 @@
+Scenario:
+We found a picture that seems to hold a flag. Can you find it?
+
+Writeup:
+
+cmd: binwalk stacked.jpg
+
+out:
+DECIMAL       HEXADECIMAL     DESCRIPTION
+---------------------------------------------------
+0             0x0             JPEG image data, JFIF 
+49709         0xC22D          JPEG image data, JFIF 
+99525         0x184C5         PNG image, 500 x 116 
+
+res: two hidden files, PNG looks interesting
+
+cmd: binwalk -e stacked.jpg
+
+out:
+DECIMAL       HEXADECIMAL     DESCRIPTION
+---------------------------------------------------
+0             0x0             JPEG image data, JFIF 
+49709         0xC22D          JPEG image data, JFIF 
+99525         0x184C5         PNG image, 500 x 116 
+
+res: didn't extract
+
+cmd: d if=stacked.jpg of=hidden.png bs=1 skip=99525
+
+out:
+
+res: extracted the PNG
+
+cmd: explorer.exe hidden.png
+
+out:
+
+res: image of flag
+
+flag: SKY-BINW-5802
