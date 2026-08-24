@@ -1,0 +1,10 @@
+Forensics
+
+Writeup:
+Opened image in hex editor.
+Noticed that it had a JPG header but had IHDR (indicating a png file type)
+Changed it to have a png header (FF D8 FF E0 00 10 4A 46 49 46 00 0D -> 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D)
+
+File opened with flag of SKY-DSFG-5792.
+
+Flag: SKY-GOGO-8813
