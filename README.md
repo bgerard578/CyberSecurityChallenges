@@ -2,5 +2,4 @@
 
 Cyber security challenges, both solved and unsolved, for the ETSU CyberBucs CTF website. This includes challenges meant to be added as well as write ups on how to solve all the challenges. (eventually)
 
-Solved: "Chef Code Chalenge", "I'm not your brah", "A Nice Ride", "Puny God!"?, "See No Evil, Speak No Evil", "stacked", "Cafe! Beef! Dude!", "CF 25' Crypto Challenge"
-
+Solved: "Chef Code Chalenge", "I'm not your brah", "A Nice Ride", "Puny God!"?, "See No Evil, Speak No Evil", "stacked", "Cafe! Beef! Dude!", "CF 25' Crypto Challenge", "magic_bytes", "Turkey Sandwich"
