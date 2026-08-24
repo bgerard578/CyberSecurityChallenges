@@ -1,0 +1,11 @@
+Enumeration & Exploitation
+
+Writeup:
+Pasted code into an online chef compiler.
+
+Tested a couple different inputs and analyzed the output.
+Found a pattern in the outputs of the entries.
+Cross referenced it with an ASCII table and shifted my input to get the flag.
+
+Input: 20
+Flag: SKY-GOGO-8813
