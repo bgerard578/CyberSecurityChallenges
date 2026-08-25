@@ -1,0 +1,6 @@
+Noticed that the contents of the file ended in == (indicating base64 encoded)
+Put the contents of the file into CyberChef and and decoded base64
+looked like code and started with "ELF"
+searched the code for "etsu" and found "etsuctf{me_Virus}"
+
+Flag: etsuctf{me_Virus}
