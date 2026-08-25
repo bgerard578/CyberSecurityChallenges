@@ -1,0 +1,25 @@
+Introduction
+When we open the .insider-4 folder, we see fireworks.jpg, room.jpg, and a .secret file note mentioning that the photographer
+  adds comments to their pictures. That points us straight to hidden metadata.
+
+Analysis
+Using exiftool on the images, we find in fireworks.jpg a comment about the Wendell family organizing fireworks. A quick search
+  shows the Wendell family holds annual fireworks in Rockport, Texas. That narrows the vacation location down to the Rockport
+  area.
+
+Next, we check the second image, room.jpg. Itʼs clearly a photo taken from a hotel room balcony with a direct seaside view.
+  Knowing the fireworks happen at Rockport, we pull up Google Maps, type in “hotels” along the waterfront, and start matching
+  the balconies and overall structure. After some back and forth with Street View, the match is obvious: Days Inn by Wyndham
+  Rockport, 901 Hwy 35 N, Rockport, TX 78382 (https://maps.app.goo.gl/sSV1KWFeVUWauTWZ9).
+
+Now weʼre left with figuring out the actual room number. Since the challenge hinted we wouldnʼt need to brute force endlessly,
+  we thought of checking Google Maps reviews and guest photos, as people love posting pictures of their rooms. Sure enough, 
+  scrolling through the photos, we stumble across an image containing room numbers 115 and 116 right next to each other. We 
+  observed that the room numbers descend as we go toward the part of the building matching our balcony view in room.jpg. 
+  That means our target room should be a bit lower than 115.
+
+We test a small range: 114, 113, 112, 111, etc. And room 111 hits.
+
+The flag requires address plus room number, formatted like the example. The hotelʼs street address is 901 Hwy 35 N, so the 
+  final submission looks like this:
+etsuCTF{daysinn_901hwy35n,rockport,tx78382_111}
